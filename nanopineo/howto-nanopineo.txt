@@ -1,0 +1,48 @@
+Morsing Morse Code (letters and digits)
+---------------------------------------
+sudo ./A.sh
+
+sudo ./B.sh
+
+...
+
+sudo ./0.sh
+
+sudo ./9.sh
+
+
+Morsing Strings
+---------------
+"morsestring.py" uses Python 2 sintax, so, you need to install it:
+1) sudo apt install python
+
+python  morsestring.py  ABC
+
+python  morsestring.py  "HI ALL"
+
+python  morsestring.py  1
+
+python  morsestring.py  9
+
+
+Changing the time duration:
+---------------------------
+Change values of "1unit.sh", "2unit.sh", "3unit.sh" and "6unit.sh"...
+Values must be expressed in seconds (sleep 1, means that 1 unit of time is 1 second).
+"2unit.sh" must always be 2 times the value of 1 unit.
+"3unit.sh" must always be 3 times the value of 1 unit.
+"6unit.sh" must always be 6 times the value of 1 unit.
+
+
+Enviroment:
+-----------
+$ uname -a
+Linux nanopineo 4.19.62-sunxi #5.92 SMP Wed Jul 31 22:07:23 CEST 2019 armv7l GNU/Linux
+
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Debian
+Description:	Debian GNU/Linux 10 (buster)
+Release:	10
+Codename:	buster
+
